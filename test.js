@@ -8,3 +8,5 @@ const { chromium } = require('playwright');
   await page.screenshot({ path: 'example.png' });
   await browser.close();
 })();
+// chạy file test.js
+// node test.js
